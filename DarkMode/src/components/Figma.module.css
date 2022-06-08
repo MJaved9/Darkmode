@@ -1,0 +1,91 @@
+.container{
+    height: 400px;
+    width: 50%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #F5F6FA;
+    border: 1px solid dodgerblue;
+    
+}
+
+.sidebar{
+position: absolute;
+left: 0%;
+right: 94.38%;
+top: 0%;
+bottom: 0%;
+border: 1px solid darkcyan;
+background: #FFFFFF;
+box-shadow: 0px 0px 5px #E5E9F2;
+width: 81px;
+/* height: 1024px;
+
+left: 0px;
+top: 0px;
+border-radius: 0px; */
+
+}
+.dashboard{
+ /* position: absolute; */
+height: 43px;
+left: 8.47%;
+right: 75.42%;
+top: calc(50% - 43px/2 - 460.5px);
+margin-left: 100px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+
+border: 1px solid rgb(249, 19, 199);
+color: #31394D;
+
+}
+.dark{
+    /* position: absolute; */
+width: 68px;
+height: 16px;
+left: 422px;
+top: 51px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: right;
+
+color: #000000;
+
+}
+
+.top{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.subcontainer{
+    left: 8.47%;
+right: 60.14%;
+top: 11.04%;
+bottom: 38.77%;
+border: 1px solid darkmagenta;
+background: #FFFFFF;
+box-shadow: 0px 1px 4px #E5E9F2;
+border-radius: 5px;
+/* height: 400px; */
+width: 330px;
+margin-left: 100px;
+display: flex;
+    justify-content: space-around;
+}
+
+.sideimg img{
+
+height: 50px;
+border-radius: 50%;
+width: 50px;
+}
